@@ -1,0 +1,6 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^api/v1/(.*)$ api/index.php [QSA,L]
+<FilesMatch "^(\.env|composer\.(json|lock)|schema\.sql)$">
+  Require all denied
+</FilesMatch>
