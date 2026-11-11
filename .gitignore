@@ -1,0 +1,11 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment secrets and logs
+.env
+*.log
+
+# Ignore dependency and build folders
+node_modules/
+dist/
